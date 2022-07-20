@@ -1,0 +1,964 @@
+	html {
+	/*-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -- */
+		visibility: visible !important;
+		font-family: 'Bebas Neue', bold;
+		/*--------------------- background-color: #092328; --------------*/
+		background-color: #092328;
+		overflow-x: hidden;
+	}
+
+		* {
+			padding: 0;
+			margin: 0;
+		  }
+
+/* Screen Size lower than 800px */
+@media only screen and (max-width: 700px) {
+	
+/*-- ---------------------------- Main Page Phone ---------------------- -- */
+   
+   .background {
+	   display: none;
+   }
+   
+	   /* DropDown Content */
+	div.dropdown .dropbtn {
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		background-color: transparent;
+		color: white;
+		border: none;
+		cursor: pointer;
+		width: 50%;
+	}
+
+	div.dropdown #menuDrop {
+		font-size: 300%;
+	}
+
+	div.dropdown .dropdown {
+	  float: left;
+	}
+
+	div.dropdown .dropdown-content a {
+	  color: white;
+	  padding: 3% 35px;
+	  text-decoration: none;
+	  display: block;
+	  font-size: 120%;
+	  font-family: 'Bebas Neue', bold;
+	  margin-top: 2%;
+	}
+
+	div.dropdown a:hover {background-color: #4d4d4d;}
+
+	.show {display: block;}
+	
+/* HOME PAGE CONTENT */
+
+   div.Home .nomesLineUp {
+	   display: none;
+   }
+   
+   	div.Home {
+	  width: 100%;
+	  height: 100%;
+	  background-image: url("./../images/background2.png" );
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	}
+
+
+	div.Home .jardimSonoro {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 30%;
+	}
+	
+	div.Home .nomesLineUp2 {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 100%;
+	  margin-top: 1%;
+	}
+
+	div.Home .instagram {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: right;
+	  width: 8%;
+	}
+	
+	div.Home .FB {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: right;
+	  width: 8%;
+	}
+	
+	div.Home .youtube {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: right;
+	  width: 8%;
+	}
+
+
+	div.Home .tickets {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+	  width: 40%;
+	  padding-top: 2%;
+	}
+	
+	div.Home .ticketsScroll {
+	  position: fixed;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: left;
+	  margin-left: 2%;
+	  width: 25%;
+	  z-index: +1;
+	}
+	
+/* FILMS PHONE */
+
+	div.FILM .filmTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 30px;
+	}
+	
+	div.FILM .videoPlayerWrapper {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  color: white;
+	  width: 60%;
+	  margin-top: 4%;
+	  padding-bottom: 13%;
+	}
+	
+	div.FILM .videoPlayer {
+		width: 100%;
+		height: 40vh;
+		background-color: black;
+		border-style: none;
+		margin-right: 1%;
+		border: none;
+		padding: 5px;
+		box-shadow: 1px 1px 100px #0c3d48;
+	}
+	
+/* ABOUT US PHONE */
+
+	div.aboutUs .aboutUsTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 30px;
+	}
+	
+	div.aboutUs .aboutUsText {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 15px;
+	}
+	
+	div.aboutUs .ticketsAbout {
+		width: 20%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+	div.aboutUs .ticketLine {
+		width: 25%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+	div.aboutUs .residentAdvisor {
+		width: 15%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+/* PARTNERS PHONE */
+   
+   div.Partners .partnersTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 30px;	   
+   }
+   
+   div.Partners .CML {
+		width: 15%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .calsberg {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .cupra {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .amen {
+		width: 16%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .getir {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .segafredo {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .casalgarcia {
+		width: 30%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+
+   div.Partners .somersby {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+
+   div.Partners .cooltra {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+   
+   div.Partners .freenow {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+	
+	div.Partners .seat {
+		width: 15%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+   
+   div.Partners .supra {
+		width: 30%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+   
+   div.Partners .casaAnimais {
+		width: 20%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;	   
+   }
+
+/* HOW TO GO PHONE */
+
+	div.HowToGo .HowToGoTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 30px;
+	}
+	
+	div.HowToGo .howToGoImg {
+		display: none;
+	}
+	
+	div.HowToGo .howToGoImgPhone {
+		margin-top: 3%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	
+/* FAQS */
+
+	div.FAQS #ukFlag {
+		width: 20%;
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+	
+	div.FAQS #ptFlag {
+		width: 20%;
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+	
+	div.FAQS .FAQSTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 30px;
+	}
+	
+	div.FAQS .FAQSText {
+		text-align: justify;
+		text-justify: inter-word;
+		color: white;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 3%;
+		font-size: 15px;
+	}
+	
+	div.FAQS .FAQSText h2 {
+		color: #e8a892;
+	}
+
+/* CONTACTS PHONE */
+
+	div.Contacts {
+		  height: 100%;
+		  background-color: #092328;
+		  margin-bottom: 1%;
+		  padding-bottom: 8%;
+		}
+
+	div.Contacts .ContactsTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 30px;
+	}
+	
+	div.Contacts .ContactsText {
+		color: white;
+		text-align: left;
+		margin-top: 5%;
+		padding-top: 2%;
+		font-size: 20px;
+	}
+	
+	div.Contacts .instagram {
+	  width: 10%;
+	  margin-left: 5%;
+	}
+	
+	div.Contacts .FB {
+	  width: 10%;
+	  margin-left: 15%;
+	}
+	
+	div.Contacts .youtube {
+	  width: 10%;
+	  margin-left: 25%;
+	}	
+	
+	div.Contacts .social {
+		width: 60%;
+		text-align: right;
+		padding-top: 5%;
+	}
+
+}
+
+/* Screen Size higher than 800px */
+@media only screen and (min-width: 700px) {
+	
+   .background2 {
+	   display: none;
+   }
+   
+   .nomes2 {
+	   display: none;
+   }
+   
+   .nomesLineUp2 {
+	   display: none;
+   }
+   
+}
+
+/* Header Composition */
+
+.header {
+     background-color: transparent;
+     position: fixed;
+     top: 0;
+     width: 100%;
+	 height: 60px;
+     z-index: 2;
+	 left: 0;
+}
+
+	/* DropDown Content */
+	.dropbtn {
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		background-color: transparent;
+		color: white;
+		border: none;
+		cursor: pointer;
+	}
+
+	#menuDrop {
+		font-size: 350%;
+	}
+
+	.dropdown {
+	  float: left;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #092328;
+	  width: 40%;
+	  height: 100vh;
+	  overflow: auto;
+	  z-index: 1;
+	  margin-top: 0px;
+	  font-size: 100%;
+	}
+
+	.dropDownImg {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.dropdown-content a {
+	  color: white;
+	  padding: 3% 35px;
+	  text-decoration: none;
+	  display: block;
+	  font-size: 140%;
+	  font-family: 'Bebas Neue', bold;
+	}
+
+	.dropdown a:hover {background-color: #4d4d4d;}
+
+	.show {display: block;}
+
+/*-- ---------------------------- Main Page ---------------------- -- */
+	
+	.Home {
+	  width: 100%;
+	  height: 100%;
+	  border-bottom: 2px solid black;
+	  background-image: url("./../images/background.png" );
+	  background-size: 100% 100%;
+	}
+
+	.jardimSonoro {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 14%;
+	}
+	
+	.nomesLineUp {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 100%;
+	}
+
+	.instagram {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: right;
+	  width: 5%;
+	}
+	
+	.FB {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: right;
+	  width: 5%;
+	}
+	
+	.youtube {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  float: right;
+	  width: 5%;
+	}
+
+	.tickets {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+	  width: 17%;
+	  margin-top: 3%;
+	  margin-bottom: 3%;
+	}
+	
+	.ticketsScroll {
+	  position: fixed;
+	  top: 93%;
+	  left: 10%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  color: white;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 5px;
+	  text-align: center;
+	  width: 12%;
+	  z-index: +1;
+	}
+	
+
+/*-- ---------------------------- Film ---------------------- -- */	
+.FILM {
+	  width: 100%;
+	  height: 100%;
+	  background-color: #092328;
+	  border-bottom: 2px solid black;
+	  background-image: url("./../images/background.png" );
+	  background-size: 100% 50%;
+	  background-repeat: no-repeat;
+	  background-position: center; 
+	}
+	
+	a img {
+	  width: 100%;
+	  height: auto;
+	}
+	
+	.filmTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 40px;
+	}
+	
+	.videoPlayerWrapper {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  color: white;
+	  width: 75%;
+	  margin-top: 4%;
+	  padding-bottom: 13%;
+	}
+
+	.videoPlayer {
+		width: 100%;
+		height: 60vh;
+		background-color: black;
+		border-style: none;
+		margin-right: 1%;
+		border: none;
+		padding: 5px;
+		box-shadow: 1px 1px 100px #0c3d48;
+	}
+	
+/*-- ---------------------------- Venue ---------------------- -- */	
+.aboutUs {
+	  width: 100%;
+	  height: 100%;
+	  background-color: #092328;
+	  margin-bottom: 1%;
+	  border-bottom: 2px solid black;
+	}
+	
+	a img {
+	  width: 100%;
+	  height: auto;
+	}
+	
+	.aboutUsTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 40px;
+	}
+	
+	.aboutUsText {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-size: 170%;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+		
+	.ticketsText {
+		color: #ff6500;
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-size: 160%;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+	.ticketsAbout {
+		width: 10%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+	.ticketLine {
+		width: 15%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+	.residentAdvisor {
+		width: 10%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+/*-- ---------------------------- Partners ---------------------- -- */	
+.Partners {
+	  width: 100%;
+	  height: 100%;
+	  background-color: #092328;
+	  border-bottom: 2px solid black;
+	}
+	
+	.partnersTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 40px;
+	}
+	
+	.SponsorsWrapper {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+
+/* INSTITUTIONAL PARTNER */
+
+	.InstitutionalPartner {
+		margin-top: 5%;
+		margin-bottom: 10px;
+		text-decoration: none;
+		font-size: 30px;
+		color: #c7c883;
+	}
+	
+	.CML {
+		width: 7%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+
+/* OFFICIAL SPONSOR */
+
+	.OfficialSponsor {
+		margin-bottom: 10px;  
+		text-decoration: none;
+		font-size: 30px;
+		color: #c7c883;
+        padding-top: 3%;		
+	}
+	
+	.calsberg {
+		width: 10%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+/* Official Car */
+
+	.OfficialCar {
+		margin-bottom: 10px;  
+		text-decoration: none;
+		font-size: 30px;
+		color: #c7c883;		
+        padding-top: 3%;		
+	}
+
+	.cupra {
+		width: 9%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+/* SPONSORs */
+
+	.Sponsors {
+		margin-bottom: 10px;  
+		text-decoration: none;
+		font-size: 30px;
+		color: #c7c883;	
+        padding-top: 3%;		
+	}
+	
+	.amen {
+		width: 5%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+	.getir {
+		width: 7%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+	.segafredo {
+		width: 7%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+	.somersby {
+		width: 6%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+	.casalgarcia {
+		width: 12%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+
+/* MOBILITY PARTNERS */
+
+	.MobilityPartners {
+		margin-bottom: 10px;  
+		text-decoration: none;
+		font-size: 30px;
+		color: #c7c883;
+        padding-top: 3%;		
+	}
+
+	.cooltra {
+		width: 11%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+
+	.freenow {
+		width: 12%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+	.seat {
+		width: 8%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+	.supra {
+		width: 14%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+	
+/* SOCIAL CAUSE */
+
+	.SocialCause {
+		margin-bottom: 10px;  
+		text-decoration: none;
+		font-size: 30px;
+		color: #c7c883;
+        padding-top: 3%;		
+	}
+
+	.casaAnimais {
+		width: 9%;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 25px;
+	}
+
+	
+	
+/*-- ---------------------------- Sponsors ---------------------- -- */	
+.HowToGo {
+	  width: 100%;
+	  height: 100%;
+	  background-color: #092328;
+	  margin-bottom: 1%;
+	  padding-bottom: 8%;
+	  border-bottom: 2px solid black;
+	}
+	
+	a img {
+	  width: 100%;
+	  height: auto;
+	}
+	
+	.HowToGoTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 40px;
+	}
+	
+	.howToGoImgPhone {
+		display: none;
+	}
+	
+	.howToGoImg {
+		margin-top: 3%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	
+/*-- ---------------------------- FAQS ---------------------- -- */	
+
+	.FAQS {
+	  width: 100%;
+	  height: 100%;
+	  background-color: #092328;
+	  margin-bottom: 1%;
+	  padding-bottom: 8%;
+	  border-bottom: 2px solid black;
+	}
+	
+	#ukFlag {
+		width: 10%;
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+	
+	#ptFlag {
+		width: 10%;
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+	
+	.FAQSTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 40px;
+	}
+	
+	.FAQSText {
+		text-align: justify;
+		text-justify: inter-word;
+		color: white;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 3%;
+		font-size: 22px;
+	}
+	
+	.FAQSText h2 {
+		color: #e8a892;
+	}
+
+	
+/*-- ---------------------------- Contactos ---------------------- -- */	
+.Contacts {
+	  width: 99%;
+	  height: 100%;
+	  background-color: #092328;
+	  margin-bottom: 1%;
+	  padding-bottom: 12%;
+	}
+	
+	.ContactsTitle {
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		font-size: 40px;
+	}
+	
+	.ContactsText {
+		color: white;
+		text-align: left;
+		margin-top: 5%;
+		padding-top: 2%;
+		padding-left: 5%;
+		font-size: 200%;
+	}
+	
+	.ticketsContacts {
+		width: 10%;
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+	
+	.social {
+		width: 75%;
+		text-align: right;
+		padding-top: 5%;
+	}
+	
+	.Contacts .instagram {
+	  position: absolute;
+	  width: 5%;
+	  margin-left: 5%;
+	}
+	
+	.Contacts .FB {
+	  position: absolute;
+	  width: 5%;
+	  margin-left: 10%;
+	}
+	
+	.Contacts .youtube {
+	  position: absolute;
+	  width: 5%;
+	  margin-left: 15%;
+	}
+	
